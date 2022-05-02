@@ -8,6 +8,24 @@ body,html{
   min-height: 100vh; 
 }
 
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #eaeaea;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+nav .links{
+  display: flex;
+  align-items: center;
+}
+nav .links a{
+  text-decoration: none;
+  color: #04a3a3;
+  margin: 0 1rem;
+  font-weight: bold;
+}
 .btn{
   outline: none;
   border: none;
@@ -29,6 +47,7 @@ body,html{
   cursor: pointer;
   margin: .2rem;
 }
+
 .profile{
   max-width: 500px;
   margin: 1rem auto;
@@ -54,3 +73,4 @@ input[type=color]{
   border: none;
   outline: none;
 }
+
