@@ -11,9 +11,9 @@ function App() {
   const styles = {backgroundColor: color};
   return (
     <div className="App" style={styles}>
+      <Theme/>
       <Profile/>
       <Counter/>
-      <Theme/>
     </div>
   );
 }

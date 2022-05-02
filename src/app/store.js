@@ -1,7 +1,7 @@
 import {configureStore} from '@reduxjs/toolkit';
-import userReducer from './features/users';
-import counterReducer from './features/counter';
-import themeReducer from './features/theme';
+import userReducer from '../features/users';
+import counterReducer from '../features/counter';
+import themeReducer from '../features/theme';
 
 const store = configureStore({
     reducer: {

@@ -7,10 +7,10 @@ export default function Counter() {
     const dispatch = useDispatch();
 
   return (
-    <div>
+    <div className='counter'>
         <h1>{counter}</h1>
-        <button onClick={()=>dispatch(increment())}>+</button>
-        <button onClick={()=>dispatch(decrement())}>-</button>
+        <button className='btn-inc red' onClick={()=>dispatch(increment())}>+</button>
+        <button className='btn-inc cyan' onClick={()=>dispatch(decrement())}>-</button>
     </div>
   )
 }
